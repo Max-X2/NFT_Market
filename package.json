@@ -1,0 +1,29 @@
+{
+  "name": "@marblism/monorepo",
+  "version": "3.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "pnpm install && pnpm run --filter server init ; pnpm run --filter web init",
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run --filter server build && pnpm run --filter web build",
+    "start": "pnpm run --parallel start",
+    "ensure": "pnpm -v || npm install -g pnpm && pnpm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/axios": "^3.0.2",
+    "@openzeppelin/contracts": "^5.0.2",
+    "axios": "^1.6.7",
+    "ethers": "^6.11.1",
+    "solc": "^0.8.25",
+    "solc-js": "^1.0.1",
+    "thirdweb": "^0.13.55"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@types/node": "^20.11.30"
+  }
+}

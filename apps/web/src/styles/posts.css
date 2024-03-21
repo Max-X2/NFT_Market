@@ -1,0 +1,14 @@
+.posts{
+  height: 750px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  
+}
+
+.posts::-webkit-scrollbar {
+  display: none;
+}
+

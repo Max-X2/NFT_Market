@@ -1,0 +1,14 @@
+.trending p{
+  color: #808492;
+  
+  background-color: #1c1c24;   
+}
+
+.trending ul{
+  margin-top: 20px;
+}
+
+.trending h1{
+  color: whitesmoke;
+  font-size: 30px;
+}

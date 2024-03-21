@@ -1,0 +1,11 @@
+.addpost{
+    width: 800px;
+    
+    border: 2px solid whitesmoke;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

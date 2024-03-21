@@ -1,0 +1,40 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native-stack": "^6.9.26",
+    "@react-navigation/stack": "^6.3.29",
+    "@thirdweb-dev/storage": "^2.0.10",
+    "@walletconnect/modal-react-native": "^1.1.0",
+    "ethers": "^6.11.1",
+    "expo": "^50.0.0",
+    "expo-image-picker": "^14.7.1",
+    "expo-screen-capture": "~5.8.1",
+    "expo-status-bar": "^1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.5",
+    "react-native-compat": "^1.0.0",
+    "react-native-heroicons": "^4.0.0",
+    "react-native-screenshot-prevent": "^1.2.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-webview": "13.6.4",
+    "expo-camera": "~14.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@tsconfig/react-native": "^3.0.2",
+    "@types/jest": "^29.5.5",
+    "@types/react": "~18.2.45",
+    "@types/react-native": "^0.72.3",
+    "@types/react-native-snap-carousel": "^3.8.11",
+    "@types/react-test-renderer": "^18.0.3",
+    "typescript": "^5.3.0"
+  },
+  "private": true
+}
