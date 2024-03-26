@@ -1,64 +1,43 @@
-<div style="background: black;">
-<p align="center" style="margin: 0;">
-  <a href="https://dev.marblism.com" target="blank">
-    <img src="https://marblism-dashboard-api--production-public.s3.us-west-1.amazonaws.com/marblism-logo.png" height="150" alt="Marblism Logo" />
-  </a>
-</p>
-<h1 align="center" style="margin: 0;">In Marble We Trust</h1>
+Sure, here's a sample README file for Socio-Marketo:
 
-<a  style="margin: 0;" target="_blank" href="https://marblism.com">
-<p align="center" style="margin: 0; letter-spacing: 3px;
-text-decoration: none;">
-marblism
-</p>
-</a>
-</div>
-<div style="height: 50px; background: linear-gradient(#000000, transparent);"></div>
+---
 
-## Documentation
+# Socio-Marketo
 
-Learn more in the [official documentation](https://dev.marblism.com).
+Socio-Marketo is a decentralized social media platform that leverages blockchain technology to provide users with ownership and authenticity of their content. This repository contains the codebase for Socio-Marketo, including the smart contracts, web application built with Next.js, and mobile application built with Expo React Native.
 
-## Installation
+## Folder Structure
 
-<div style="color: red;">
+The repository is organized as follows:
 
-> ⚠️ **Important**<br/>Make sure the following tools are installed on your computer
+- **/smart_contracts**: Contains the Solidity smart contracts for Socio-Marketo.
+- **/web**: Contains the web application frontend code, developed using Next.js.
+- **/mobile**: Contains the mobile application frontend code, developed using Expo React Native.
+- **/jupyter_notebooks**: Contains Jupyter notebooks for data analysis and research related to Socio-Marketo.
 
-<p align="center">
+## Smart Contracts
 
-<a target="_blank" href="https://www.docker.com/get-started/">![Docker Desktop Version](https://img.shields.io/badge/Docker%20Desktop-4.19.0-black?logo=docker)</a>
-<a target="_blank" href="https://nodejs.org/en">![Node.js version](https://img.shields.io/badge/Node.js-20.11.0-black?logo=nodedotjs)</a>
-<a target="_blank" href="https://www.npmjs.com/">![npm Version](https://img.shields.io/badge/npm-10.2.4-black?logo=npm)</a>
+The smart contracts are written in Solidity and deployed on the Ethereum blockchain. They govern the core functionality of Socio-Marketo, including tokenization of user-generated posts as Non-Fungible Tokens (NFTs), user authentication, and content verification.
 
-</p>
-</div>
+## Web Application
 
-<br />
+The web application frontend is developed using Next.js, a React framework for building server-side rendered (SSR) and statically generated applications. It provides users with a seamless and intuitive interface for interacting with Socio-Marketo, including browsing posts, creating content, and managing their profile.
 
-```bash
-$ pnpm run init
-```
+## Mobile Application
 
-## Development
+The mobile application frontend is developed using Expo React Native, a framework for building cross-platform mobile applications with React Native. It offers users the flexibility to access Socio-Marketo from their smartphones, with features tailored for a mobile experience, such as push notifications and camera integration.
 
-```bash
-$ pnpm run dev
-```
+## Jupyter Notebooks
 
-[View your application in your browser](http://localhost:8099)
+The Jupyter notebooks in this folder are used for data analysis, research, and experimentation related to Socio-Marketo. They cover topics such as user engagement metrics, content trends, and blockchain integration strategies.
 
-## Production
+## Getting Started
 
-```bash
-$ pnpm run build
-$ pnpm run start
-```
+To get started with Socio-Marketo, follow the setup instructions in each respective folder (`/smart_contracts`, `/web`, `/mobile`). Make sure to install the necessary dependencies and configure any environment variables required for deployment and testing.
 
-## Support
+## Working Images
 
-We reply FAST on our <a target="_blank" href="https://discord.gg/GScNz7kAEu">Discord server</a>.
-
-## Stay in touch
-
-Twitter - [@marblismAI](https://twitter.com/marblismAI)
+![Image 1](images/10.png)
+![Image 2](images/11.png)
+![Image 3](images/12.png)
+---
