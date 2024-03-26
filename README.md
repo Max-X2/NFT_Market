@@ -1,7 +1,3 @@
-Sure, here's a sample README file for Socio-Marketo:
-
----
-
 # Socio-Marketo
 
 Socio-Marketo is a decentralized social media platform that leverages blockchain technology to provide users with ownership and authenticity of their content. This repository contains the codebase for Socio-Marketo, including the smart contracts, web application built with Next.js, and mobile application built with Expo React Native.
